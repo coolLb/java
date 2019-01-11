@@ -1,0 +1,11 @@
+eureka:
+  instance:
+    hostname: peer1
+  client:
+    serverUrl:
+      defaultZone:http://peer2:1113/eureka
+server:
+  port: 1112
+spring:
+  application:
+    name: eureka-server
